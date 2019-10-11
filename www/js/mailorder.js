@@ -31,6 +31,8 @@ $( document ).ready( function(){
 
     $('body').on('change', '.currency-select', function(){
 
+        alert(  $( this ).val() )
+
     	if( $( this ).val() == 'EUR' ) {
 
     		$('.product').each( function(){
