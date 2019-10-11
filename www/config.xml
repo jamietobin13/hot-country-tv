@@ -42,16 +42,16 @@
 
     <!-- Core plugins -->
     <!-- <plugin name="cordova-plugin-console" source="pgb" /> -->
-    <plugin name="cordova-plugin-device" source="pgb" />
-    <plugin name="cordova-plugin-device-motion" source="pgb" />
-    <plugin name="cordova-plugin-device-orientation" source="pgb" />
-    <plugin name="cordova-plugin-dialogs" source="pgb" />
-    <plugin name="cordova-plugin-file" source="pgb" />
-    <plugin name="cordova-plugin-globalization" source="pgb" />
-    <plugin name="cordova-plugin-inappbrowser" source="pgb" />
-    <plugin name="cordova-plugin-media" source="pgb" />
-    <plugin name="cordova-plugin-network-information" source="pgb" />
-    <plugin name="cordova-plugin-splashscreen" source="pgb" />
+    <plugin name="cordova-plugin-device" source="npm" />
+    <plugin name="cordova-plugin-device-motion" source="npm" />
+    <plugin name="cordova-plugin-device-orientation" source="npm" />
+    <plugin name="cordova-plugin-dialogs" source="npm" />
+    <plugin name="cordova-plugin-file" source="npm" />
+    <plugin name="cordova-plugin-globalization" source="npm" />
+    <plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <plugin name="cordova-plugin-media" source="npm" />
+    <plugin name="cordova-plugin-network-information" source="npm" />
+    <plugin name="cordova-plugin-splashscreen" source="npm" />
     <!--<plugin name="cordova-plugin-battery-status" />-->
     <!--<plugin name="cordova-plugin-camera" />-->
     <!--<plugin name="cordova-plugin-media-capture" />-->
