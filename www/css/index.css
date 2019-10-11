@@ -135,6 +135,17 @@ section.header .shifter-handle:after{
 	box-shadow: 0 5px 0 #fff, 0 -5px 0 #fff
 }
 
+section.header .shopping-and-promotions{
+	display:block; 
+	width:50px; 
+	height:50px; 
+	position:absolute; 
+	right:80px; 
+	top: 13px; 
+	background:url('https://www.hotcountrytv.com/wp/wp-content/uploads/2019/10/shopping-and-promotions-sm.jpg') center center no-repeat;
+	background-size:cover;
+}
+
 nav.shifter-navigation{
 	background:#191313!important;	
 }
