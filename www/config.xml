@@ -4,17 +4,11 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.hotcountry"
-        version   = "1.0.7">
+        version   = "1.0.8">
 
     <name>Hot Country TV</name>
-
-    <description>
-        Europe’s longest running country music TV show
-    </description>
-
-    <author href="http://crystalmountainmedia.net" email="contact@crystalmountainmedia.net">
-        Crystal Mountain Media
-    </author>
+    <description>Europe’s longest running country music TV show</description>
+    <author href="http://crystalmountainmedia.net" email="contact@crystalmountainmedia.net">Crystal Mountain Media</author>
 
     <!--
         If you do not want any permissions to be added to your app, add the
@@ -50,27 +44,26 @@
     <!--<plugin name="cordova-plugin-battery-status" />-->
     <!--<plugin name="cordova-plugin-camera" />-->
     <!--<plugin name="cordova-plugin-media-capture" />-->
-    <plugin name="cordova-plugin-console" />
     <!--<plugin name="cordova-plugin-contacts" />-->
+    <!--<plugin name="cordova-plugin-file-transfer" />-->
+    <!--<plugin name="cordova-plugin-geolocation" />-->
+    <!--<plugin name="cordova-plugin-vibration" />-->
+    <plugin name="cordova-plugin-console" />
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-device-motion" />
     <plugin name="cordova-plugin-device-orientation" />
     <plugin name="cordova-plugin-dialogs" />
     <plugin name="cordova-plugin-file" />
-    <!--<plugin name="cordova-plugin-file-transfer" />-->
-    <!--<plugin name="cordova-plugin-geolocation" />-->
     <plugin name="cordova-plugin-globalization" />
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-media" />
     <plugin name="cordova-plugin-network-information" />
     <plugin name="cordova-plugin-splashscreen" />
-    <!--<plugin name="cordova-plugin-vibration" />-->
+    
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
-    <!--
-        <plugin name="com.phonegap.plugins.barcodescanner" />
-    -->
+    <!-- <plugin name="com.phonegap.plugins.barcodescanner" /> -->
 
     <!-- Define app icon for each platform. -->
     <icon src="res/icons/ios/icon-40.png"            gap:platform="ios"        width="40" height="40" />
@@ -105,7 +98,7 @@
     <gap:splash src="res/screen/ios/Default-736h.png"                    gap:platform="ios"     width="1242" height="2208"/>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>107</string>
+        <string>108</string>
     </gap:config-file>
 
     <!--
