@@ -41,7 +41,7 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
-    <plugin name="cordova-plugin-console" source="pgb" />
+    <!-- <plugin name="cordova-plugin-console" source="pgb" /> -->
     <plugin name="cordova-plugin-device" source="pgb" />
     <plugin name="cordova-plugin-device-motion" source="pgb" />
     <plugin name="cordova-plugin-device-orientation" source="pgb" />
