@@ -351,11 +351,11 @@ section.banner-adverts .swiper-slide a{
 
 section.banner-adverts .shopping-and-promotions{
 	display:block; 
-	width:290px; 
-	height:122px; 
-	position:absolute; 
-	right:80px; 
-	top: 13px; 
+	width:250px; 
+	height:1100px; 
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
 	background:url('https://www.hotcountrytv.com/wp/wp-content/uploads/2019/10/shopping-and-promotions-mobile.jpg') center center no-repeat;
 	background-size:cover;
 }
