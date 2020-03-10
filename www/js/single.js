@@ -1,6 +1,6 @@
 $( document ).ready( function(){
 
-    //alert( GetURLParameter('vidID') );
+    alert( GetURLParameter('vidID') );
     $('.video-frame').attr('src', 'https://www.hotcountrytv.com/wp/wp-content/themes/hot-country-tv/app_player.php?vidID=' + GetURLParameter('vidID') );
    
 
@@ -16,6 +16,7 @@ $( document ).ready( function(){
         //$('.spinner').fadeIn(200);
         //alert(  GetURLParameter('vidID') );
         //$('.video-container').data('video', GetURLParameter('vidID') );
+
         
         
         $.ajax({
@@ -26,6 +27,7 @@ $( document ).ready( function(){
 
                 $('.video-blurb').html( result );
                 setVideoHeight();
+                alert( result )
 
               }
         });
