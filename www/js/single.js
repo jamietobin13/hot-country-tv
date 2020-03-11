@@ -1,9 +1,7 @@
 $( document ).ready( function(){
 
-    alert( GetURLParameter('vidID') );
-    $('.video-frame').attr('src', 'https://www.hotcountrytv.com/wp/wp-content/themes/hot-country-tv/app_player.php?vidID=' + GetURLParameter('vidID') );
+    //$('.video-frame').attr('src', 'https://www.hotcountrytv.com/wp/wp-content/themes/hot-country-tv/app_player.php?vidID=' + GetURLParameter('vidID') );
    
-
     /*
     |--------------------------------------------------------------------------
     | PLAYER
@@ -11,7 +9,7 @@ $( document ).ready( function(){
     */
 
 
-    if( $('body').hasClass('page-single')){
+    /*if( $('body').hasClass('page-single')){
         
         //$('.spinner').fadeIn(200);
         //alert(  GetURLParameter('vidID') );
@@ -27,13 +25,11 @@ $( document ).ready( function(){
 
                 $('.video-blurb').html( result );
                 setVideoHeight();
-                alert( result )
-
               }
         });
 
     
         
-    } 
+    } */
 
 });
